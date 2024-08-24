@@ -1,0 +1,273 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: auto;
+  width: 100%;
+  height: 1100px;
+  background-color: black;
+}
+
+header {
+  width: 85%;
+  height: auto;
+  display: flex;
+  gap: 50px;
+  float: left;
+  height: auto;
+  position: sticky;
+  top: 0px;
+}
+
+#logo {
+  width: 120px;
+  margin-left: 20px;
+}
+
+.infos {
+  font-family: arial;
+  font-size: 15px;
+  margin-top: 25px;
+}
+
+.infos:hover {
+  color: gray;
+  margin-top: 27px;
+}
+
+#lado_direito {
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  top: 0px;
+  height: 70px;
+  gap: 20px;
+}
+
+.infos2 {
+  font-size: 15px;
+  margin-top: 25px;
+}
+
+#fotinha {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+  background-image: url(../imagens/fotinha.jpeg);
+  background-size: cover;
+}
+
+#filmes {
+  width: 100%;
+  height: auto;
+}
+
+#descubra {
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#previa {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#previa a {
+  width: 220px;
+  height: 112px;
+  background-color: white;
+  margin-left: 50px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+#previa1 {
+  background-image: url(../imagens/previa1.PNG);
+  background-size: cover;
+}
+#previa2 {
+  background-image: url(../imagens/previa2.PNG);
+  background-size: cover;
+}
+#previa3 {
+  background-image: url(../imagens/previa3.PNG);
+  background-size: cover;
+}
+#previa4 {
+  background-image: url(../imagens/previa4.PNG);
+  background-size: cover;
+}
+#previa5 {
+  background-image: url(../imagens/previa5.PNG);
+  background-size: cover;
+}
+#previa6 {
+  background-image: url(../imagens/previa6.PNG);
+  background-size: cover;
+}
+
+#win {
+  width: 100%;
+  height: auto;
+}
+
+#ouro {
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#previa7 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#previa7 a {
+  width: 220px;
+  height: 112px;
+  background-color: white;
+  margin-left: 50px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+#previa8 {
+  background-image: url(../imagens/previa8.PNG);
+  background-size: cover;
+}
+#previa9 {
+  background-image: url(../imagens/previa9.PNG);
+  background-size: cover;
+}
+#previa10 {
+  background-image: url(../imagens/previa10.PNG);
+  background-size: cover;
+}
+#previa11 {
+  background-image: url(../imagens/previa11.PNG);
+  background-size: cover;
+}
+#previa12 {
+  background-image: url(../imagens/previa12.PNG);
+  background-size: cover;
+}
+#previa13 {
+  background-image: url(../imagens/previa13.PNG);
+  background-size: cover;
+}
+
+#previa1:hover {
+  width: 300px;
+  border: 1px solid white;
+}
+#previa2:hover {
+  width: 300px;
+  border: 1px solid white;
+}
+
+#previa3:hover {
+  width: 300px;
+  border: 1px solid white;
+}
+
+#previa4:hover {
+  width: 300px;
+  border: 1px solid white;
+}
+
+#previa5:hover {
+  width: 300px;
+  border: 1px solid white;
+}
+
+#previa6:hover {
+  width: 300px;
+  border: 1px solid white;
+}
+
+#previa8:hover {
+  width: 300px;
+  border: 1px solid white;
+}
+#previa9:hover {
+  width: 300px;
+  border: 1px solid white;
+}
+#previa10:hover {
+  width: 300px;
+  border: 1px solid white;
+}
+#previa11:hover {
+  width: 300px;
+  border: 1px solid white;
+}
+#previa12:hover {
+  width: 300px;
+  border: 1px solid white;
+  border: 1px solid white;
+}
+#previa13:hover {
+  width: 300px;
+  border: 1px solid white;
+}
+
+#assistir {
+  clear: left;
+  position: absolute;
+  width: 140px;
+  top: 525px;
+  left: 60px;
+  background: white;
+  color: black;
+}
+
+#assistir p {
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  font-weight: 500;
+}
+
+#mais_infos {
+  clear: left;
+  position: absolute;
+  width: 250px;
+  top: 520px;
+  left: 218px;
+  background: grey;
+  color: black;
+  height: 49px;
+  border-radius: 8px;
+}
+
+#mais_infos p {
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  padding: 15px;
+  font-weight: 500;
+  color: white;
+}
+
+#mais_infos p:hover {
+  color: black;
+}
+
+#assistir p:hover {
+  color: red;
+}
