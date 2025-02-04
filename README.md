@@ -15,3 +15,5 @@ Projeto proposto no começo das aulas do PROA, recriar a interface da netflix so
 ## Tecnologias Utilizadas
 - **HTML5**: Estrutura básica da página.
 - **CSS3**: Estilização da página, incluindo layout, cores, fontes e responsividade.
+
+Projeto Criado por Ricardo Matos  
